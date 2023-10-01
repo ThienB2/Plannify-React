@@ -10,7 +10,7 @@ const eventDeadlines = [];
 
 // Initialize OpenAI API client
 const openai = new OpenAI({
-  apiKey: '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'
+  apiKey: 'APIKEY GOES HERE'
 });
 
 // Declare event class 
