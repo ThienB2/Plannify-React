@@ -1,11 +1,11 @@
-assignment 1
-cpsc 210
-2023-10-12T23:59:00
+Lab 1 
+Computer Science
+2023-10-01T10:00:00
 
-assignment 2
-cpsc 222
-2023-11-12T23:59:00
+Darwin's Theory 
+Biology
+2023-10-01T15:00:00
 
-assignment 3
-cpsc 333
-2023-09-12T23:59:00
+Newton's Law
+Physics
+2023-10-01T21:00:00
