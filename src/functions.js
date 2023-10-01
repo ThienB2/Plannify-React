@@ -1,14 +1,17 @@
 const fs = require('fs');
 const filePath = "mytext.txt";
 const OpenAI = require('openai');
+import { apikey } from "apikeys.js";
+
+// Initialize OpenAI API client
+const openai = new OpenAI({
+  apiKey: apikey, // Add API key
+});
 
 // Declare events array to be initialized later when reading file
 const events = [];
 
-// Initialize OpenAI API client
-const openai = new OpenAI({
-  apiKey: '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', // Add API key
-});
+
 
 // Declare event class 
 class Event {
