@@ -1,17 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
 import Main from './Main.js'
 import { Button, Container, Paper, TextField, Typography } from '@mui/material';
+
+const fs = require("fs");
 
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <script type = "text/javascript" src="functions.js">
+        </script>
         <div sx={{maxWidth: '30px'}}>
           <Container>
             <Button variant='contained'>App Icon</Button>
-            <Button variant='contained'>Settings</Button>
+            <Button variant='contained'>Import</Button>
           </Container>
           
           <Typography>Good Evening</Typography>
